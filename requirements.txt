@@ -1,6 +1,7 @@
 # FastAPI and server
 fastapi>=0.100.0
 uvicorn[standard]>=0.20.0
+python-multipart>=0.0.6
 
 # Chess library for encoding/decoding
 python-chess>=1.999
