@@ -22,7 +22,7 @@ from uuid import uuid4
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # React app URL
+    allow_origins=["https://chess-encryption.vercel.app"],  # React app URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
